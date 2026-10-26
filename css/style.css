@@ -1,8 +1,8 @@
 *{padding: 0;margin: 0;box-sizing: border-box;}
 :root {
   --particle-wine: #ff71d9;
-  --particle-green: #23549c;
-  --particle-ivory: #8ce9b9;
+  --particle-green: #ffc655;
+  --particle-ivory: #8f8ce9;
 }
 
 body {
@@ -10,7 +10,7 @@ body {
   margin: 0;
   overflow: hidden;
 }
-
+h1{text-align: center;}
 .particle-layer {
   position: fixed;
   inset: 0;
