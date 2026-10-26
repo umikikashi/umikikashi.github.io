@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>動画をhtmlに埋め込む</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist+Pixel&display=swap" rel="stylesheet">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .video_wrapper {
+            width: 100%;
+            height: 100vh;
+            margin: 0 auto;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+
+        video {
+            object-fit: cover;
+            object-position: 60% 0%;
+            width: 80%;
+            height: 100%;
+
+        }
+
+        .text_wrapper {
+            width: 50%;
+            padding: 200px 100px;
+            background-color: #ffffffc9;
+            font-family: "Geist Pixel", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+            font-variation-settings:
+                "ELSH" 0;
+        }
+
+        h1 {
+            font-size: 48px;
+            margin: 50px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 2;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="video_wrapper">
+        <video src="img/nature1.mp4" autoplay muted loop playsinline></video>
+    </div>
+
+    <div class="text_wrapper">
+        <h1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur laudantium modi labore repellendus
+            mollitia veniam consectetur eveniet optio unde numquam?
+        </h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia tempora sit quod officiis beatae aliquid
+            fugiat delectus expedita iusto adipisci labore exercitationem, vitae facilis, debitis ad earum aut obcaecati
+            recusandae dicta. Facere cupiditate consectetur excepturi ut blanditiis officiis molestias at rem. Id,
+            laboriosam non? Repellat dolores saepe quidem dignissimos itaque iusto sequi laudantium blanditiis
+            cupiditate aliquid, maiores adipisci quasi quo a quisquam inventore ducimus. Nam fugiat sequi, nobis dolorem
+            libero dolore tenetur iusto temporibus, facilis ab delectus tempora ipsum. Fugit ad reprehenderit dolorum.
+            Aperiam, distinctio. Cumque exercitationem, facere laudantium consectetur, enim magni omnis pariatur nulla
+            vero officia esse amet vel. Fugit, atque? Temporibus beatae odit, quam doloremque blanditiis eaque eligendi
+            sit nemo adipisci, minima velit tempora, distinctio quo dolor dicta. Sint, consectetur molestiae? Harum aut
+            sint neque, velit praesentium obcaecati enim esse laboriosam deserunt ipsa sapiente dignissimos quas
+            blanditiis commodi suscipit facilis non, consequatur aspernatur nam cum officia. Eligendi reiciendis eos,
+            dolorum quae doloremque ullam quo facilis, officiis corporis quaerat libero repudiandae harum qui nihil
+            facere enim quis eius unde? Adipisci assumenda saepe, facilis sit veniam est, incidunt magnam veritatis
+            repellendus accusantium, repudiandae sed ducimus sunt voluptatum aliquam deserunt vel ipsa qui quaerat nulla
+            numquam consectetur sequi itaque. Dicta, exercitationem.</p>
+    </div>
+
+</body>
+
+</html>
