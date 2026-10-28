@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="週末のための、上質なパイとタルトの専門店。">
+    <title>菓子屋 灯り | 週末を彩る、極上のひとくち。</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=BIZ+UDMincho:wght@400;700&family=Zen+Old+Mincho:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <a class="brand" href="#top" aria-label="菓子屋 灯り ホーム">
+            <span class="brand-mark">灯</span>
+            <span><small>PIE &amp; TART</small>菓子屋 灯り</span>
+        </a>
+        <nav class="site-nav" aria-label="メインナビゲーション">
+            <a href="#about">こだわり</a>
+            <a href="#menu">お品書き</a>
+            <a href="#voice">お客様の声</a>
+            <a href="#faq">FAQ</a>
+        </nav>
+        <a class="button button-small" href="#menu">お品書きを見る <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main id="top">
+        <section class="hero section-wrap">
+            <div class="hero-copy reveal">
+                <p class="eyebrow">A LITTLE LUXURY FOR YOUR WEEKEND</p>
+                <h1>週末を彩る、<br><em>極上のひとくち。</em></h1>
+                <p class="hero-lead">季節の果実と香ばしい生地。<br>静かな午後に寄り添う、焼きたてのパイとタルトを。</p>
+                <a class="button" href="#menu">今週のお品書き <span aria-hidden="true">↓</span></a>
+            </div>
+            <div class="hero-visual reveal">
+                <div class="hero-image-frame">
+                    <img src="https://placehold.jp/800x400.png?text=Main+Visual" alt="焼きたてのパイとタルトのイメージ">
+                    <span class="image-note">BAKED WITH<br>PATIENCE</span>
+                </div>
+                <p class="hero-caption">ひとつひとつ、窯の中で<br>時間をかけて育てています。</p>
+            </div>
+        </section>
+
+        <section class="intro section-wrap" id="about">
+            <div class="section-heading">
+                <p class="eyebrow">OUR PHILOSOPHY</p>
+                <h2>大人の休日に、<br>小さな余白を。</h2>
+            </div>
+            <p class="intro-text">素材の輪郭がきちんと感じられること。<br>ひとくちごとに、気持ちがほどけていくこと。<br>私たちは、甘い時間のための菓子を焼いています。</p>
+        </section>
+
+        <section class="features section-wrap" aria-label="菓子屋 灯りの特長">
+            <article class="feature-card">
+                <span class="feature-number">01</span>
+                <h3>高級感</h3>
+                <p>発酵バターの香りと、素材の美しさ。甘さを抑え、余韻まで上品に仕上げます。</p>
+            </article>
+            <article class="feature-card">
+                <span class="feature-number">02</span>
+                <h3>大人の休日</h3>
+                <p>慌ただしい日常から少し離れて。珈琲や紅茶と過ごす時間を、特別なものに。</p>
+            </article>
+            <article class="feature-card">
+                <span class="feature-number">03</span>
+                <h3>ワインにも合う</h3>
+                <p>果実の酸味とスパイスの余韻。夜にはワインと合わせても楽しめる味わいです。</p>
+            </article>
+        </section>
+
+        <section class="menu-section section-wrap" id="menu">
+            <div class="section-heading section-heading-row">
+                <div><p class="eyebrow">THIS WEEK'S SELECTION</p><h2>今週のお品書き</h2></div>
+                <p class="section-aside">季節に合わせて、少しずつ<br>内容が変わります。</p>
+            </div>
+            <div class="product-grid" id="product-list"></div>
+        </section>
+
+        <section class="voice-section section-wrap" id="voice">
+            <div class="section-heading"><p class="eyebrow">FROM OUR GUESTS</p><h2>届いた言葉</h2></div>
+            <div class="voice-grid" id="voice-list"></div>
+        </section>
+
+        <section class="faq-section section-wrap" id="faq">
+            <div class="section-heading"><p class="eyebrow">QUESTIONS &amp; ANSWERS</p><h2>よくあるご質問</h2></div>
+            <div class="faq-list" id="faq-list"></div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner section-wrap">
+            <div><a class="brand footer-brand" href="#top"><span class="brand-mark">灯</span><span><small>PIE &amp; TART</small>菓子屋 灯り</span></a><p class="footer-copy">焼きたての余韻を、あなたの週末に。</p></div>
+            <div class="footer-contact"><p>OPEN 11:00 - 18:00</p><p>水曜・木曜定休</p><a href="mailto:hello@akari-pie.jp">hello@akari-pie.jp</a></div>
+            <p class="copyright">© AKARI PIE &amp; TART</p>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
